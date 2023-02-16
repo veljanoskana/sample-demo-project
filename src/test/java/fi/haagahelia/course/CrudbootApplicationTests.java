@@ -36,8 +36,7 @@ public class CrudbootApplicationTests {
     @Autowired
     public void setStudentRepository(StudentRepository studentRepository) {
         this.studentRepository = studentRepository;
-    }    
-  /*  
+    }
     @Test
     public void addUser() {
     	User user = new User("testuser", "testuser", "USER");
@@ -55,5 +54,4 @@ public class CrudbootApplicationTests {
 		Optional<Student> findStudent = studentRepository.findById(student.getId());
 		assertTrue(findStudent.isPresent());
     }
-    */
 }
