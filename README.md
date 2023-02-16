@@ -1,4 +1,10 @@
 # StudentList
+<hr/>
+
+![Build](https://github.com/veljanoskana/sample-demo-project/actions/workflows/maven.yml/badge.svg)
+
+<hr/>
+
 Simple CRUD application made with Spring Boot
 
 - Spring Boot
