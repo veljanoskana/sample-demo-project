@@ -1,5 +1,5 @@
 FROM openjdk:17-jdk-slim-buster
 EXPOSE 8080
-ADD target/sample-demo-project sample-demo-project
-ENTRYPOINT ["java", "-jar", "/sample-demo-project.jar"]
+ADD target/crudboot-0.0.1-SNAPSHOT.jar crudboot-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "/crudboot-0.0.1-SNAPSHOT.jar"]
 
